@@ -1,0 +1,9 @@
+Container(
+  margin: EdgeInsets.all(10.0), // Отступы
+  padding: EdgeInsets.symmetric(horizontal: 20.0, vertical: 10.0), // Внутренние отступы
+  decoration: BoxDecoration(
+    color: Colors.blue, // Фоновый цвет
+    border: Border.all(color: Colors.black), // Граница
+  ),
+  child: Text('Пример текста в контейнере'),
+)
